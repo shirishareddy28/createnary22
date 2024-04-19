@@ -1,0 +1,133 @@
+.getsetyo-handholds-you {
+  margin: 0;
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.you-focus-on {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--cta-18px-semibold-size);
+  font-weight: 500;
+  color: var(--secondary-text-alt);
+}
+.about-createnary {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-9xl);
+}
+.about-createnary,
+.createnary-footer,
+.navigation-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.navigation-bar {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-31xl);
+}
+.createnary-footer {
+  flex: 1;
+  background-color: var(--body);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-161xl) 0;
+  box-sizing: border-box;
+  min-width: 250px;
+  max-width: 450px;
+}
+.frame-parent,
+.steps-structure-parent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent {
+  flex-direction: column;
+  gap: 120px;
+  max-width: calc(100% - 110px);
+}
+.steps-structure-parent {
+  flex-direction: row;
+  gap: var(--gap-31xl);
+  min-width: 320px;
+  max-width: 630px;
+}
+.how-it-works,
+.page2 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.how-it-works {
+  align-self: stretch;
+  background-color: var(--body);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-161xl);
+  max-width: 100%;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--h3-27px-bold-size);
+  color: var(--primary-text);
+  font-family: var(--b2-16-medium);
+}
+.page2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  gap: var(--gap-3xs);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 725px) {
+  .createnary-footer {
+    padding-top: var(--padding-98xl);
+    padding-bottom: var(--padding-98xl);
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: var(--gap-41xl);
+  }
+  .steps-structure-parent {
+    gap: var(--gap-6xl);
+    max-width: 100%;
+  }
+  .how-it-works {
+    padding-left: var(--padding-71xl);
+    padding-right: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getsetyo-handholds-you {
+    font-size: var(--h4-22px-bold-size);
+  }
+  .navigation-bar {
+    gap: var(--gap-6xl);
+  }
+  .createnary-footer,
+  .frame-parent {
+    max-width: 100%;
+  }
+  .frame-parent {
+    gap: var(--gap-11xl);
+  }
+  .how-it-works {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

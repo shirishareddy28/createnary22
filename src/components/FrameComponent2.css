@@ -1,0 +1,60 @@
+.share-the-holidays {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.you-receive-trending {
+  margin: 0;
+}
+.you-receive-trending-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--b2-16-medium-size);
+  font-weight: 500;
+  color: var(--secondary-text-alt);
+}
+.image-5-icon,
+.wrapper-image-5 {
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.image-5-icon {
+  height: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 100%;
+  transform: scale(1.152);
+}
+.wrapper-image-5 {
+  height: 264px;
+  position: relative;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.share-the-holidays-stays-and-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 260px;
+  text-align: left;
+  font-size: var(--h4-22px-bold-size);
+  color: var(--primary-text);
+  font-family: var(--b2-16-medium);
+}
+@media screen and (max-width: 450px) {
+  .share-the-holidays {
+    font-size: var(--cta-18px-semibold-size);
+  }
+}

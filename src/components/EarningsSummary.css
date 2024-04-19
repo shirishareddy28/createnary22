@@ -1,0 +1,63 @@
+.monthly-earning {
+  flex: 1;
+  position: relative;
+}
+.yearly-earning {
+  width: 113.5px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.earnings-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl-5);
+}
+.b4,
+.b5 {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.b4 {
+  width: 91.8px;
+  flex-shrink: 0;
+  min-width: 91.8px;
+}
+.b5 {
+  min-width: 113.5px;
+}
+.earnings-amount {
+  width: 276.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -2.3px;
+  font-size: var(--h1-mobile-24px-bold-size);
+  color: var(--primary);
+}
+.earnings-values {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.earnings-summary {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xl) var(--padding-64xl) var(--padding-15xl);
+  text-align: center;
+  font-size: var(--cta-18px-semibold-size);
+  color: var(--color-black);
+  font-family: var(--b2-16-medium);
+}

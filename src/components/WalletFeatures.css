@@ -1,0 +1,27 @@
+.parent,
+.wallet-features,
+.wallet-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.wallet-features,
+.wallet-info {
+  max-width: 100%;
+}
+.wallet-info {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.wallet-features {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mid) 0 var(--padding-base);
+  box-sizing: border-box;
+}

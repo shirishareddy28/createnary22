@@ -1,0 +1,32 @@
+.how-much-does {
+  flex: 1;
+  position: relative;
+}
+.icon1 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div,
+.property-1mobile1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 1;
+}
+.div {
+  border-radius: var(--br-base);
+  background-color: var(--color-gainsboro-100);
+  align-items: center;
+  padding: var(--padding-sm) var(--padding-xl);
+  gap: var(--gap-xl);
+}
+.property-1mobile1 {
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--faq-mobile-14px-bold-size);
+  color: var(--primary-text);
+  font-family: var(--b2-16-medium);
+}

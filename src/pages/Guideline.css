@@ -1,0 +1,35 @@
+.nav-bar-should,
+.page-should-be,
+.same-page-should,
+.search-should-have,
+.the-nav-bar {
+  margin-bottom: 0;
+}
+.page-should-be-responsive-padd {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-29xl);
+}
+.page-should-be-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  mix-blend-mode: normal;
+}
+.guideline {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  height: 469px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

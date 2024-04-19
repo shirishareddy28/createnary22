@@ -1,0 +1,67 @@
+.do-i-need {
+  flex: 1;
+  position: relative;
+}
+.icon2 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 10px);
+  right: -16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.do-i-need-technical-skills-to-parent,
+.faq {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.do-i-need-technical-skills-to-parent {
+  flex: 1;
+  position: relative;
+}
+.faq {
+  align-self: stretch;
+  padding: 0 var(--padding-base) 0 0;
+}
+.line,
+.no-not-at {
+  align-self: stretch;
+  position: relative;
+}
+.line {
+  height: 1px;
+  background-color: var(--color-gray-400);
+}
+.no-not-at {
+  font-weight: 500;
+  color: var(--secondary-text-alt);
+}
+.div2,
+.f-a-q-item-two {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.div2 {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-gainsboro-100);
+  flex-direction: column;
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+}
+.f-a-q-item-two {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mid) 0 var(--padding-base);
+  text-align: left;
+  font-size: var(--faq-mobile-14px-bold-size);
+  color: var(--primary-text);
+  font-family: var(--b2-16-medium);
+}

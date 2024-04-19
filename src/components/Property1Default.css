@@ -1,0 +1,18 @@
+.get-started3 {
+  position: relative;
+  font-weight: 600;
+}
+.property-1default {
+  border-radius: var(--br-lg);
+  background-color: var(--primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  text-align: left;
+  font-size: var(--cta-18px-semibold-size);
+  color: var(--body);
+  font-family: var(--b2-16-medium);
+}

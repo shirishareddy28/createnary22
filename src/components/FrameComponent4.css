@@ -1,0 +1,14 @@
+.about-highlighted-features-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h1-mobile-24px-bold-size);
+  color: var(--body);
+  font-family: var(--b2-16-medium);
+}

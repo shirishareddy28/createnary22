@@ -1,0 +1,76 @@
+.frame-child4 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 4.27px;
+  background-color: var(--primary);
+  display: none;
+}
+.b7 {
+  position: relative;
+  display: inline-block;
+  min-width: 10px;
+  z-index: 1;
+}
+.frame-wrapper,
+.rectangle-parent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent2 {
+  border-radius: 4.27px;
+  background-color: var(--primary);
+  flex-direction: row;
+  padding: var(--padding-8xs-8) var(--padding-2xs-8) var(--padding-8xs-2)
+    var(--padding-xs-2);
+  z-index: 1;
+}
+.frame-wrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.share-the-payment {
+  align-self: stretch;
+  position: relative;
+}
+.you-receive-trending3 {
+  margin: 0;
+}
+.you-receive-trending-container3 {
+  position: relative;
+  font-size: var(--faq-mobile-14px-bold-size);
+  font-weight: 500;
+  color: var(--secondary-text-alt);
+}
+.share-the-payment-link-sit-ba-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--cta-18px-semibold-size);
+  color: var(--primary-text);
+}
+.frame-parent3,
+.page-2-mobile-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent3 {
+  flex: 1;
+  gap: var(--gap-lg);
+}
+.page-2-mobile-inner {
+  width: 345px;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lgi-2);
+  color: var(--white);
+  font-family: var(--b2-16-medium);
+}

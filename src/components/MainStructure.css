@@ -1,0 +1,12 @@
+.main-structure {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) var(--padding-19xl);
+  text-align: left;
+  font-size: var(--cta-18px-semibold-size);
+  color: var(--primary-text);
+  font-family: var(--b2-16-medium);
+}
